@@ -1,6 +1,6 @@
 spring:
-  application:
-    name: newspace-user-service
+  profiles:
+    active: ${DEPLOY_TARGET_COLOR:blue}
   cloud:
     config:
       name: newspace-user-service
