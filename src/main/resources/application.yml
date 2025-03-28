@@ -1,5 +1,8 @@
 spring:
+  application:
+    name: newspace-user-service
   cloud:
     config:
       name: newspace-user-service
-
+  config:
+    import: optional:configserver:${SPRING_CONFIG_IMPORT}
