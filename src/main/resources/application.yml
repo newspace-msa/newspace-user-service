@@ -5,4 +5,4 @@ spring:
     config:
       name: newspace-user-service
   config:
-    import: optional:configserver:${SPRING_CONFIG_IMPORT}
+    import: optional:configserver:${SPRING_CONFIG_IMPORT:http://localhost:8888}
