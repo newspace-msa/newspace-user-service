@@ -4,3 +4,13 @@ spring:
       name: newspace-user-service
   config:
     import: optional:configserver:${SPRING_CONFIG_IMPORT:http://localhost:8888}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus  # prometheus 포함
+  prometheus:
+    metrics:
+      export:
+        enabled: true
