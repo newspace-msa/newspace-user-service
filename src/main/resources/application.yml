@@ -7,7 +7,7 @@ spring:
 
 management:
   server:
-    port: 8080
+    port: 32799
   endpoints:
     web:
       exposure:
