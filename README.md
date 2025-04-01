@@ -13,6 +13,8 @@ newspace-user-service 입니다.
 LG CNS AM Inspire Camp
 <br>
 미니프로젝트 2 - 9조
+<br>
+현민영(팀장) / 김지수 / 구동혁 / 박상욱 / 유영서
 
 ## 🛠️ 기술 스택
 
